@@ -9,8 +9,6 @@ import { DbzService } from '../services/dbz.service';
 
 export class MainPageComponent {
 
-
-
     constructor(private _dbzService: DbzService) { }
 
     get characters(): Character[] {
